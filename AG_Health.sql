@@ -1,5 +1,6 @@
 USE [master]
 GO
+---For Always On CLusters only
 SELECT AGC.name as 'AOGroupName'
        , DRS.replica_server_name as 'AOHost'
        , ADC.database_name as 'AODatabase'
